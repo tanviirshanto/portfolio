@@ -6,8 +6,8 @@ import { MdOutlineEmail } from 'react-icons/md';
 
 function ItemCard({image_url,name,demo_link}) {
   return (
-    <div className=" max-w-80 w-[80%]  lg:border border-gray-300  rounded-xl shadow-2xl p-4 flex flex-col gap-5 md:h-64 ">
-      <div className="rounded-xl  overflow-hidden ">
+    <div className=" max-w-96   lg:border border-gray-300  rounded-xl   p-4 flex flex-col gap-5 md:h-[22rem] ">
+      <div className="rounded-xl h-[80%]  overflow-hidden ">
         {" "}
  
         <Image
@@ -15,10 +15,10 @@ function ItemCard({image_url,name,demo_link}) {
           width={600}
           height={400}
           alt="project"
-          className=" w-full rounded-xl"
+          className=" w-full rounded-xl hover:scale-110 transition-all"
         />
       </div>
-      <div className='flex justify-between items-center mb-2'>
+      <div className='flex flex-col justify-between items-center mb-2 h-[20%] '>
         <div className="text-xl   ">{name}</div>
       <Link
         href={demo_link}

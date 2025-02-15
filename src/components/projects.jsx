@@ -15,7 +15,7 @@ function Projects() {
         <div className="lg:text-4xl text-2xl  mb-5 ">Projects</div>
         <div className="text-center text-lg text-gray-600">My recent works</div>
       </div>
-      <div className="flex flex-col md:flex-row md:flex-wrap items-center justify-center  w-screen lg:w-[80%] gap-10 mx-auto my-14 lg:my-24">
+      <div className="flex flex-col md:flex-row md:flex-wrap items-center justify-center  w-screen lg:w-[80%] gap-10 mx-auto my-14 lg:my-32">
         <ItemCard
           image_url={"/foodcourt.jpg"}
           name="Food Court"
